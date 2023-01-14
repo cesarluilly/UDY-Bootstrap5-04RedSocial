@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+
+/* ********************************************************* */
+/* Como este es un proyecto grande, entonces voy a
+agregar VARIABLES DE COLORES */
+:root {
+    --texto: rgba(255, 255, 255, .7);
+    --blanco: #fff;
+    --input: #3A3B3C;
+    --input-hover: #4b4d4e;
+    --activo: #2D88FF;
+    --gris-claro:#b0b3b8;
+    --fondo-contenido: #242526;
+}
+
+body {
+    background: #18191A;
+    color: var(--texto);
+}

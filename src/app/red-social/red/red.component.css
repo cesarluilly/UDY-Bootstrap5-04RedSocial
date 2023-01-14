@@ -23,8 +23,8 @@ header .logo {
 
 header .logo i {
     color: var(--blanco);
-    height: 35px;
-    width: 35px;
+    display: inline-block;
+    font-size: 30px;
 }
 
 header .barra-busqueda {

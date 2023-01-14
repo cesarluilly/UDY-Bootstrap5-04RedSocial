@@ -19,6 +19,17 @@ header{
     background: var(--fondo-contenido);
 }
 
+header .logo {
+    display: inline-block;
+}
+
+header .logo i {
+    color: var(--blanco);
+    height: 35px;
+    width: 35px;
+}
+
+
 
 
 

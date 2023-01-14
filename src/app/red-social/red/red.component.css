@@ -49,6 +49,34 @@ header .barra-busqueda .icono {
     color: var(--texto);
 }
 
+/* Menu Principal */
+header .menu a {
+    display: inline-block;
+    padding: 10px 40px;
+}
+
+header .menu a:hover {
+    color: var(--texto);
+    background: var(--input);
+    border-radius: 5px;
+}
+
+header .menu a i {
+    width: 25px;
+    height: 25px;
+}
+
+header .menu .active {
+    border-bottom: 4px solid var(--activo);
+    color: var(--activo);
+}
+
+header .menu .active:hover {
+    background: none;
+    border-radius: 0px;
+    color: var(--activo);
+}
+
 
 
 

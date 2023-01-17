@@ -23,7 +23,6 @@ header .logo {
 
 header .logo i {
     color: var(--blanco);
-    display: inline-block;
     font-size: 30px;
 }
 

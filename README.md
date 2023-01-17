@@ -29,3 +29,13 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 # Aprendisaje
 
 * [Variables de colores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties)
+
+# Pasos
+* Generar el esqueleto con flex a nivel mas general de la seccion que queremos realizar y pensando 
+en el diseño y colores, es decir difiniendo nombre de clases en los tags.
+
+* Agregando estilos a traves de las clases ya definidas para agregarles colores, formas y tamaños.
+
+* Agregando flexbox a profundidad en mis elementos.
+
+* Agregando clases responsive y media queries.

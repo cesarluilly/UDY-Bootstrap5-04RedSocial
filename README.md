@@ -30,6 +30,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 * [Variables de colores de CSS](https://developer.mozilla.org/es/docs/Web/CSS/Using_CSS_custom_properties)
 
+* Units Css [Liga](https://www.w3schools.com/cssref/css_units.php)
+
 # Pasos
 * Generar el esqueleto con flex a nivel mas general de la seccion que queremos realizar y pensando 
 en el diseño y colores, es decir difiniendo nombre de clases en los tags.

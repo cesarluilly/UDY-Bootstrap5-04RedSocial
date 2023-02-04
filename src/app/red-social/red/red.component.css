@@ -164,7 +164,11 @@ footer nav a:hover {
 @media screen and (max-width: 576px) {}
 
 /* Dispositivo md */
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .enlaces-rapidos {
+        display: none;
+    }
+}
 
 /* Dispositivo lg */
 @media screen and (max-width: 992px) {
@@ -174,6 +178,10 @@ footer nav a:hover {
 
     .menu {
         margin-top: 10px;
+    }
+
+    aside {
+        padding-top: 130px;
     }
 }
 

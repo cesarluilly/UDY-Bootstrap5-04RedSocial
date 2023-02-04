@@ -207,7 +207,8 @@ footer nav a:hover {
 
 /* Dispositivo md */
 @media screen and (max-width: 768px) {
-    .enlaces-rapidos {
+    .enlaces-rapidos, 
+    .contactos {
         display: none;
     }
 }

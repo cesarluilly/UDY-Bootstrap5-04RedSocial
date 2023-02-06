@@ -208,7 +208,8 @@ main {
     padding-top: 70px;
 }
 
-main .publicar {
+main .publicar,
+main .publicacion {
     background: var(--fondo-contenido);
     width: 100%;
     border-radius: 5px;
@@ -260,6 +261,82 @@ main .publicar .botones a:hover {
 
 main .publicar .botones a i {
     margin-right: 7px;
+}
+
+/* -- Publicacion --- */
+main .publicacion .header {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+main .publicacion .header .datos {
+    display: flex;
+    flex-direction: column;
+}
+
+main .publicacion .header .datos .nombre {
+    color: var(--blanco);
+}
+
+main .publicacion .header .datos .hora {
+    color: var(--texto);
+    font-size: 14px;
+}
+
+main .publicacion .header .datos .hora:hover {
+    color: var(--texto);
+}
+
+main .publicacion .header .datos a:hover {
+    color: var(--texto);
+    text-decoration: underline;
+}
+
+
+main .publicacion .body p {
+    margin-bottom: 10px;
+    color: var(--blanco);
+}
+
+main .publicacion .body img {
+    width: 100%;
+}
+
+main .publicacion .comentarios {
+    padding: 10px;
+}
+
+main .publicacion .comentarios .me-gusta i {
+    margin-right: 10px;
+    color: #e75151;
+}
+
+main .publicacion .comentarios a, 
+main .publicacion .comentarios .me-gusta {
+    color: var(--texto);
+} 
+
+main .publicacion .comentarios a:hover {
+    text-decoration: underline;
+    color: var(--texto);
+}
+
+main .publicacion .botones button {
+    width: 100%;
+    border: none;
+    background: none;
+    color: var(--texto);
+    padding: 10px;
+    border-radius: 3px;
+}
+
+main .publicacion .botones button:hover {
+    background: #3a3b3c;
+}
+
+main .publicacion .botones button i {
+    margin-right: 5px;
 }
 
 /* -- MEDIAQUERIES --- */

@@ -9,6 +9,10 @@ a{
     text-decoration: none;
 }
 
+.borderRed {
+    border: solid red 1px;
+}
+
 /* --------------------------- */
 /* HEADER */
 /* --------------------------- */
